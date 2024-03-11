@@ -1,0 +1,405 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+/* NAV */
+
+.nav{
+    background-color: rgb(149, 23, 23);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.text{
+    padding-top: 35px;
+}
+
+.nav:hover a{
+    color: rgb(254, 196, 4);
+}
+
+.navlinks{
+    float: right;
+    padding-right: 40px;
+    cursor: pointer;
+    padding-top: 40px;
+}
+
+.navlinks ul li{
+    display: inline-block;
+    padding-right:  30px;
+    cursor: pointer;
+}
+
+.navlinks ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20;
+    text-transform: uppercase;
+    
+    padding-left: 70px;
+}
+
+/* CONTAINER */
+
+.container{
+    background-image: linear-gradient(to top, rgba(145, 146, 122, 0.62), rgba(145, 146, 122, 1)), url(images/Traditional-Turkish-cuisine.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 100%;
+    height: 695px;
+    text-align: center;
+}
+
+.container h1{
+    padding-top: 120px;
+    color: whitesmoke;
+    font-size: 60;
+}
+
+.container p{
+    color: whitesmoke;
+    padding-top: 50px;
+}
+
+/* HOME MENU ITEM */
+
+.home-menu-item{
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    border: 6px solid rgba(0, 0, 0, 0.437);
+
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+    width: 80%;
+}
+
+/* BODY MEALS */
+
+.body-meals{
+    background-image: linear-gradient(to top, rgba(145, 146, 122, 0.62), rgba(145, 146, 122, 1)), url(images/Traditional-Turkish-cuisine.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 100%;
+    height: 695px;
+    text-align: center;
+}
+
+/* MEALS LIST ITEM */
+
+.meals-list-item{  
+    text-decoration: none;
+    color: whitesmoke;
+    border: 4px solid rgba(0, 0, 0, 0.4);
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    width: 80%;
+}
+
+.meals-list-item i{
+   float: right;
+   color: rgba(0, 0, 0, 0.692);
+}
+
+/* CONTACT */
+
+.contact{
+    background-image: linear-gradient(to top, rgba(145, 146, 122, 0.62), rgba(145, 146, 122, 1)), url(images/Traditional-Turkish-cuisine.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 100%;
+    height: 695px;
+    text-align: center; 
+}
+
+.contact h1{
+    padding-top: 40px;
+    color: whitesmoke;
+}
+
+/* FORM */
+
+.form{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    padding: 50px;
+}
+
+input[type=text]{
+    margin: 10px auto 30px auto;
+    width: 400px;
+    padding: 7px 5px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+input[type=email]{
+    margin: 10px auto 30px auto;
+    width: 400px;
+    padding: 7px 5px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+input[type=number]{
+    margin: 10px auto 30px auto;
+    width: 400px;
+    padding: 7px 5px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.form textarea{
+    margin: 10px auto 30px auto;
+    width: 400px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+/* QUERY */
+
+.query{
+    padding: 20px;
+    background-color: rgb(149, 23, 23) ;
+    border: none;
+    border-radius: 3px;
+    transition: 0.2s ease;
+}
+
+.query a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+/* RECIPE */
+
+#recipe{
+    background-image: linear-gradient(to top, rgba(145, 146, 122, 0.62), rgba(145, 146, 122, 1)), url(images/Traditional-Turkish-cuisine.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 100%;
+    height: 695px;
+    text-align: center;
+}
+
+/* RECIPE DETAILS */
+
+.recipe-details{
+    border: 7px solid rgba(0, 0, 0, 0.4);
+    background-color: rgba(255, 255, 255, 0.153);
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.recipe-details img{
+    height: 370px;
+   border: 2px solid rgba(255, 255, 255, 0.385);
+   width: 100%;
+}
+
+.recipe-details h1{
+    font-size: 25px;
+    border: 4px solid #1a1a1a; 
+    font-family: fantasy;
+    color: red;
+}
+
+.recipe-details h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+}
+
+.recipe-details h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.recipe-details p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.recipe-details-ingredients label{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.recipe-details-ingredients button{
+    background-color: orangered;
+    font-size: 15px;
+}
+
+.recipe-details-ingredients a{
+    color: whitesmoke;
+}
+
+/* RESPONSIVE LAYOUT */
+
+@media only screen and (min-width:600px){
+    #starters{
+        width: 80%;
+        margin: auto;
+    }
+    
+    #recipe{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width:1000px){
+    #starters{
+        width: 60%;
+        margin: auto;
+    }
+    
+    #recipe{
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width:1500px){
+    #starters{
+        width: 40%;
+        margin: auto;
+    }
+    
+    #recipe{
+        width: 40%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width:600px){
+    #meals{
+        width: 80%;
+        margin: auto;
+    }
+    
+    #recipe{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    #meals{
+        width: 60%;
+        margin: auto;
+    }
+    
+    #recipe{
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1500px){
+    #meals{
+        width: 40%;
+        margin: auto;
+    }
+    
+    #recipe{
+        width: 40%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    #drinks{
+        width: 80%;
+        margin: auto;
+    }
+    
+    #recipe{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    #drinks{
+        width: 60%;
+        margin: auto;
+    }
+    
+    #recipe{
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1500px){
+    #drinks{
+        width: 40%;
+        margin: auto;
+    }
+    
+    #recipe{
+        width: 40%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    #desserts{
+        width: 80%;
+        margin: auto;
+    }
+    
+    #recipe{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    #desserts{
+        width: 60%;
+        margin: auto;
+    }
+    
+    #recipe{
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1500px){
+    #desserts{
+        width: 40%;
+        margin: auto;
+    }
+    
+    #recipe{
+        width: 40%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 720px){
+    .body-recipes{
+        background-image: linear-gradient(to top, rgba(145, 146, 122, 0.62), rgba(145, 146, 122, 1)), url(images/Traditional-Turkish-cuisine.jpg);
+        background-size: cover;
+        background-repeat: no-repeat
+    }
+}
